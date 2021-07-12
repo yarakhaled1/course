@@ -1,1 +1,1 @@
-# course
+# Web design course
