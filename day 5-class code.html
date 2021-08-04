@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  a.websites{display:block;}
+  li.drinks{display:inline;}
+  #e1 {display:none;}/* اخفاء مع عدم الحفاظ على المساحة*/
+#e2 {visibility:hidden;}
+
+.first{ background-color:red; height:40px; color:white; margin: 20px 30px;
+  position:static;}
+.second{ background-color:blue; height:40px; color:white; margin: 20px 30px;
+position:relative;right:30px; top:40px;}
+.third{ background-color:green; height:40px; color:white; margin: 20px 30px; width:120px;
+position:fixed;} /* to make the element fixed when scrol*/
+.fourth{ background-color:yellow; height:40px; color:white; margin: 20px 30px;}
+
+#e3 {font-size:30px; background-color:pink; width:70%; height:150px;
+   overflow:scroll; float:left;}/*hidden/visited/scroll*/
+
+#e4{clear:right; width:30%; padding:20px 1x;}
+
+
+li.navbar{float:left;font-size:26px;}
+li.navbar{background-color:blue; width:20%; padding:15px; text-align:center;}
+li.navbar:hover{background-color:gray;}
+li.navbar:active{background-color:pink;}
+
+.read{float:left; padding:40px 20px; height:250px; opacity:0.3;}
+.read:hover{opacity:1;}
+.p1{clear:left}
+.p1:hover{background-color:red;}
+
+.drop{position:relative; display:block;}
+.dropitems{display:none; position:relative; background-color:gray;
+  padding:10px; width:150px; border:1px solid black;}
+.dropitems:active {background-color: green;}
+.drop:hover .dropitems {display:block;}
+.btn{background-color:red; color:white; padding:20px; width:120px;
+  height:50px; cursor:pointer;}
+</style>
+</head>
+  <body>
+    <p> we are in we school </p>
+    <p>we are in <span> we school </span></p>
+    <p> we are in <div> we school </div> </p>
+<div> we are in we school </div>
+<br>
+<a class="websites" href="https://www.google.com/" target="_blank"> Google </a>
+<a class="websites" href="https://www.youtube.com/" target="_blank"> youtube </a>
+<a class="websites" href="https://www.pinterest.com/" target="_blank"> pinterest </a>
+<br>
+<ul>
+  <li class="drinks">coffe</li>
+  <li class="drinks" >tea</li>
+  <li class="drinks">milk</li>
+  <li class="drinks"><a href="https://www.pinterest.com/" target="_blank"> pinterest </a>
+  </li>
+</ul>
+<h1 id="e1"> we school </h1>
+<h1 id="e2">future career camb </h1>
+<p>this is element will be hidden </p>
+<hr>
+
+<div class="first"> first </div>
+<div class="second"> second </div>
+<div class="third"> third </div>
+<div class="fourth"> fourth </div>
+<hr>
+<div id="e3">  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+ sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+   ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+    in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+</div>
+<img  id="e4" src="books.jpg" alt="000"></img>
+
+<hr>
+<br>
+<h1>We school</h1>
+<ul type=none >
+  <li class="navbar"><b>Home</b></li>
+  <li class="navbar"><b>About</b></li>
+  <li class="navbar"><b>Gallery</b></li>
+  <li class="navbar"><b>Contact</b></li>
+</ul>
+
+<br>
+<div class="Gellery">
+  <img class="read" src="bam-books.png" alt="ooo" width="30%">
+  <img class="read" src="read.jpg" alt="000" width="30%">
+  <img class="read" src="powells.png" alt="000" width="30%">
+
+
+</div>
+<div class="p1">
+  <h1>We school</h1>
+  <p>we school was establisshed in 2020</p>
+
+</div>
+<br><br><hr>
+
+<div class="drop">
+<button class="btn"> DropDown </button>
+<div>
+  <a class="dropitems" href="https://www.google.com/" target="_blank"> Google </a>
+  <a class="dropitems" href="https://www.youtube.com/" target="_blank"> youtube </a>
+  <a class="dropitems" href="https://www.pinterest.com/" target="_blank"> pinterest </a>
+
+</div>
+</div>
+<br><br><br>
+<a href="https://i.ytimg.com/vi/iUA1cyUtr6E/hqdefault.jpg" target="_blank">
+  <img src="https://i.ytimg.com/vi/iUA1cyUtr6E/hqdefault.jpg" alt="00" width=20%> </a>
+
+
+
+
+
+
+
+  </body>
+</html>

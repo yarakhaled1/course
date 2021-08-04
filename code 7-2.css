@@ -1,0 +1,7 @@
+header {background-color: gray; height: 80px; text-align: center; padding-top:10px; margin-bottom: 15px;}
+
+.flex-container{display:flex; background-color: pink; height:80px;}
+.flex-container a {padding:20px; text-align: center; width:20%; background-color: powderblue; border: 1px solid white;}
+
+.flex-container2 { display: flex;background-color: lightgray;}
+.flex-container2 article {padding-left: 30px; height: 100px;margin-top: 10px;}
