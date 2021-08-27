@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Why we school</title>
+<style>
+body {
+  font-family: Arial;
+background-image: linear-gradient(to right, #960da3, #8a1bb5, #7829c7, #5b35d9, #1241eb);
+}
+
+
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; */
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(We.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+    padding-right: 2px;
+    margin-left:0;
+
+}
+
+.navbar {
+    /* width: 85%; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+    font-family: Arial;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #714d8d;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 30px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #714d8d;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0px;
+
+}
+span{
+    background:#3f3d88;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+
+}
+.flex2 {
+    display: flex;
+    background-color: #504290;
+}
+
+.img {
+    width: 600px;
+    padding-right: 90px;
+}
+
+.hwe {
+    font-size: 40px;
+    text-align: center;
+}
+.arti {
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+    font-family:sans-serif
+}       .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition-duration: 1s;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: DarkViolet
+;
+ border-bottom-right-radius: .7rem;
+ border-top-left-radius: .7rem;
+
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+transition-duration: 1s;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 15px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+                transition-duration: 1s;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+  .box {text-align: center;
+   margin-top: 80px;
+   margin-left: 130px;
+   margin-right: 130px;
+   padding-bottom: 60px;
+   font-size: 30px;
+
+}
+.cont {padding: 0.1mm;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: darkblue;
+    box-shadow: 0px 0px 5px 0px,
+                0px 0px 25px 0px,
+                0px 0px 30px 0px,
+                0px 0px 40px 0px,
+                0px 0px 50px 0px;
+animation: animate 5s linear infinite;
+}
+@keyframes animate{
+    0%{filter: hue-rotate(0deg);}
+    100%{filter: hue-rotate(360deg);}
+}
+
+
+#e3{font-size: 50px; color: white;}
+
+    .e1 {font-size:30px; background-color:SeaShell
+; width:50%; height:680px;
+        float:left;padding-top: 20px;text-align: justify;}
+
+    .section{float:right ; width:50%; background-color: HotPink
+; height: 700px;}
+
+#e2 {width: 50%; direction: rtl; padding-left: 250px; padding-top: 50px; padding-bottom: 40px;}
+
+#e4 {font-size: 28px; text-align:center; color:white;line-height: 50px;font-family: Arial;}
+
+#e5 {width: 100%; font-size: 25px; line-height: 50px; width: 70%; color: white;text-align: justify;
+font-family:Arial;}
+
+
+#h1{clear: right;padding-top: 50px;font-size: 60px; color: white;}
+
+.ADVANTAGES li {font-size: 25px; text-align: justify;line-height: 40px;}
+
+.flex-container {display:flex;}
+
+.flex-container figure figcaption { text-align:center;}
+
+#img1{background-color:SeaShell
+
+; padding: 40px; text-align: center;}
+
+#img2 {padding-top: 40px;}
+
+#img3{background-color:SeaShell
+
+
+; padding: 40px; text-align: justify;}
+
+#p2 {font-size: 25px;line-height: 40px;}
+
+#p4 {font-size: 25px; line-height: 50px; color: black;}
+
+.flexcontainer2 {display: flex;}
+
+#img4 {padding: 10px; padding-left: 30px; }
+
+#p3 {font-size: 25px; line-height: 40px; color:white;}
+
+h1 {color: wheat;}
+
+ol li {color: white;}
+
+.e1 {background-color: MistyRose
+
+;}
+.e1 {background-color: SeaShell; text-align: center; line-height: 40px}
+#hh {font-size: 60px; padding: 18px;margin: 25px;}
+
+footer { text-align: center; font-size: 25px; background-color: black; color: white; padding: 30px;}
+
+body p ol figcaption{font-family: Arial;}
+
+
+</style>
+</head>
+<body>
+  <div class="banner">
+          <div class="navbar">
+          <a href="index1.html"><img src="logo.png" class="logo"></a>
+              <ul>
+                  <li><a href="index1.html">Home</a></li>
+                  <li><a href="final project.html">Events</a></li>
+                  <li><a href="team8.html">Site Traning</a></li>
+                  <li><a href="project- vacancies.html">Careers</a></li>
+                  <li><a href="About.html">About</a></li>
+                  <div class="dropdown">
+                  <li><a href="#">New Student</a></li>
+
+                  <div class="dropdown-content">
+                   <a href="Why WE School.html"> Why We School</a>
+                   <a href="How to apply.html">How To Apply</a>
+                  </div>
+                  </div>
+
+
+
+                  </div>
+
+
+                  </ul>
+
+<div class=box>
+  <div class=cont>
+<h1 id="hh"> Why WE School </h1>
+  </div>
+</div>
+<br>
+<address id="e3">WHY WE-SCHOOL?</address>
+<hr>
+<div class="flexcontainer2">
+<p id="e5"><b>WE School is the first smart governmental school</b> equipped with
+the highest level of modern technologies and approved curricula to qualify technicians
+ for the labor market to be a development step in the future of Egypt.
+ <br><br><br>
+The school students are provided with practical training in the fields of communications, programming, electricity
+and learn other subjects. The school develops the students in the behavioral aspects of
+their lives on how to make decisions and communicate with others to make them able to simulate the labor market.</p>
+<br><br><br>
+<img id="img4" src="we school 2.jpg" alt="00" width="30%" height="450px">
+</div>
+<br><br>
+  <div class="e1">
+  <h4 id="pp">We School is a co-ed school and supports the joint work of males and females</h4>
+  <br>
+  <img id="ee" src="student.png" alt="00">
+  </div>
+  <div class="section">
+
+  <p id="e4"><b>
+The school's goal is to bring out a new generation of technicians in the field of communications
+and information technology who are able to build an integrated digital society
+to keep pace with the latest technologies and methods of education in force internationally.</b></p>
+<video id="e2" controls src="we school video.mp4" width="600px"></video>
+
+
+</div>
+<br><br>
+<address id="h1"> <ins> WHAT ARE THE ADVANTAGES?</ins></address>
+<br>
+<ol class="ADVANTAGES" type="1">
+<li>The most prominent feature of WE School is that the student studies
+ everything related to information technology, communication systems,
+  and electrical systems.</li>
+  <br><br>
+  <li>WE School allows the graduates to join and complete their studies
+    in faculties of engineering and technological universities, after they passed the equivalency.</li>
+     <br><br>
+     <li>WE School provides a world-class teaching staff,
+        including doctors and engineers specialized in the field.</li>
+        <br><br>
+              <li>The sponsor company (WE) also provides job opportunities in the
+                 company for the top achievers upon their graduation.</li>
+                <br><br>
+
+</ol>
+<img src="المدرسة 2.jpeg" alt="00" width="100%" height="600px">
+<br><br><br><br>
+<section class="flex-container">
+<figure id="img1" >
+  <img src="سيسكو.jpeg" alt="00" width="450px" height="300px">
+  <br><br>
+  <figcaption id="p2"> WE School depends on competencies system in it's educational program <br> which helps in the development
+     of students skills and <br> the enhancement of their practical skills in addition to their behavioral skills.
+   </figcaption>
+</figure>
+<figure id=img2>
+<img  src="بنات وى 2.jpeg" alt="000" width="450px" height="300px">
+<br><br>
+<figcaption id="p3"> School always create joy between
+Its students, <br>and always makes them cooperative and able to deal
+<br>With all the different opinions and personalities.</figcaption>
+</figure>
+<figure id="img3">
+<img src="ورشة الكهرباء.jpeg" alt="00" width="450px" height="300px">
+<br><br><br>
+<figcaption id="p4"> WE School is keen to train the students in
+  a practical way to enter <br> the labor market easily. </figcaption>
+</figure>
+</section>
+<br><br><br>
+<footer >
+"WE hope seeing you in our world"
+</html>
